@@ -1,0 +1,36 @@
+<div class="team-header full">
+	<div class="max width">
+		<h1>Faculty</h1>
+	</div>
+</div>
+<div class="team-meta full">
+	<div class="max width">
+		<div class="team-meta-content">
+			<div class="team-meta-photo">
+				%%PHOTO size="large" link="false"%%
+			</div>
+			<div class="team-meta-details">
+				%%NAME wrap="h2" class="team-member-name"%%
+				%%POSITION%%
+				<h3>Education</h3>
+				<?php the_field('degrees') ?>
+				<h3>Contact</h3>
+				<a href="mailto:<?php the_field('email_address') ?>"><?php the_field('email_address') ?></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="team-about full">
+	<div class="max width">
+		<div class="team-about-content">
+			<div class="team-about-bio">
+			<h2>About %%NAME%%</h2>
+			%%CONTENT%%
+			</div>
+			<div class="team-about-courses">
+			<h2>Courses</h2>
+			<?php the_field('courses') ?>
+			</div>
+		</div>
+	</div>
+</div>
