@@ -1527,54 +1527,6 @@ body.single-format-gallery .entry-content p:first-child {
 }
 }
 
-.post-password-required {
-	height: 70vh;
-}
-
-.post-password-required .entry-content {
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.post-password-form {
-	width: 88%;
-	max-width: 300px;
-  margin: 0;
-}
-
-.post-password-form p {
-	margin: 0;
-	font-family: Muli;
-}
-
-.post-password-form input[type="submit"] {
-	background-color: #990808;
-	color: #FFF;
-	font-weight: 700;
-	padding: 0.575em 1.75em;
-	line-height: 1;
-	border: none;
-	text-align: center;
-	width: 100%;
-	font-size: 18px;
-}
-
-.post-password-form input[type="submit"]:hover {
-	background-color: #870000;
-}
-
-.post-password-form label[for^="pwbox"] {
-	visibility:hidden;
-}
-
-.post-password-form label[for^="pwbox"] input {
-	visibility: visible;
-	width: 100%;
-	font-size: 18px;
-}
-
 /* Woocommerce Styling */
 .cue-playlist-container div.mejs-time {
 	width: auto !important;
