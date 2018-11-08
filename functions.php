@@ -30,17 +30,6 @@ function child_style_in_footer() {
 
 
 //
-// Ninja Forms Password Fix
-// =============================================================================
-
-add_action( 'wp_enqueue_scripts', 'ninja_forms_password_fix', 99 );
-function ninja_forms_password_fix(){
-
-	wp_enqueue_script( 'nf-password-fix', get_stylesheet_directory_uri() . '/js/ninja-forms-password-fix.js', array( 'jquery' ) );
-
-}
-
-//
 // Add "Artist" custom attribute after shop title
 // =============================================================================
 
