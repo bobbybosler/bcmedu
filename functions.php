@@ -713,6 +713,16 @@ function add_multiselect_script() {
 
 add_action( 'wp_enqueue_scripts', 'add_multiselect_script' );
 
+//
+// Enqueue Script for jquery-observe
+//
+
+function add_jqueryobserve_script() {
+    wp_register_script( 'jqueryobserve', get_stylesheet_directory_uri() . '/js/jquery-observe.js', array( 'jquery' ) );
+    wp_enqueue_script( 'jqueryobserve' );
+}
+
+add_action( 'wp_enqueue_scripts', 'add_jqueryobserve_script' );
 
 //
 // Add New Menu Locations
