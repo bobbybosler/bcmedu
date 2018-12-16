@@ -1020,7 +1020,7 @@ body.blog	.entry-title, body.archive	.entry-title {
 }
 
 footer {
-	z-index:-1;
+	z-index: 9998;
 }
 
 
