@@ -36,7 +36,8 @@ article.format-quote .entry-content {
 	background-position: center center !important;
 }
 
-h1, .h1 {font-family: bebas-neue-bold !important;
+h1, .h1 {
+	/*font-family: bebas-neue-bold !important;*/
 }
 
 /** Topbar Styling **/
@@ -315,7 +316,7 @@ body.archive .wpfc-sermon-container .wpfc_sermon:last-of-type {
 
 #wpfc_sermon_sorting > div {
 	width: calc(25% - 10px);
-	max-width: none;
+	max-width: none !important;
 	margin-right: 10px !important;
 }
 
