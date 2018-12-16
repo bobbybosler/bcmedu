@@ -315,7 +315,10 @@ body.archive .wpfc-sermon-container .wpfc_sermon:last-of-type {
 
 #wpfc_sermon_sorting > div {
 	width: calc(25% - 10px);
+	max-width: none;
+	margin-right: 10px !important;
 }
+
 .select2 {
 		width: 100% !important;
 }
