@@ -37,7 +37,7 @@ article.format-quote .entry-content {
 }
 
 h1, .h1 {
-	/*font-family: bebas-neue-bold !important;*/
+	font-family: bebas-neue-bold !important;
 }
 
 /** Topbar Styling **/
