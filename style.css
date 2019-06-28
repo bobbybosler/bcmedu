@@ -159,6 +159,8 @@ body.archive .wpfc-sermon-container .wpfc_sermon:last-of-type {
 	line-height: 0.9;
 }
 
+/**/
+
 .wpfc-sermon-single-audio-download, .plyr--audio .plyr__controls {
 	border: none !important;
 }
