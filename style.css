@@ -1423,7 +1423,7 @@ body.single-format-video .entry-wrap {
 }
 
 /* Single Post Standard Format */
-
+/*
 body.single-format-standard .article-wrap:before {
 	content: "\f0f6";
 	right: 0px;
@@ -1487,7 +1487,7 @@ body.single-format-standard .entry-wrap img.alignright {
 	margin: 0 0 20px 0;
 }
 }
-
+*/
 /* Single Post Gallery Format */
 
 body.single-format-gallery .article-wrap:before {
