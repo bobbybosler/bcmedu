@@ -13,20 +13,20 @@
   <?php bcm_category_header(); ?>
 <div class="article-wrap">
   <div class="entry-featured">
-    <?php x_featured_gallery(); ?>
+    <?php /*x_featured_gallery();*/ ?>
   </div>
 
   <?php else : ?>
-  
+
   <div class="entry-wrap image">
     <?php x_get_view( 'integrity', '_content', 'post-header' ); ?>
     <?php x_get_view( 'global', '_content' ); ?>
   </div>
-  <?php x_get_view( 'integrity', '_content', 'post-footer' ); ?>  
-  
+  <?php x_get_view( 'integrity', '_content', 'post-footer' ); ?>
+
   <?php endif; ?>
-  
-  
+
+
   <?php if ( is_single() ) : ?>
 
   <div class="entry-wrap">
@@ -34,14 +34,14 @@
     <?php x_get_view( 'global', '_content' ); ?>
   </div>
   <?php x_get_view( 'integrity', '_content', 'post-footer' ); ?>
-</div>  
+</div>
   <?php else : ?>
 
   <div class="entry-featured image">
     <?php x_featured_gallery(); ?>
-  </div>  
-  
-  
+  </div>
+
+
   <?php endif; ?>
 
 </article>
