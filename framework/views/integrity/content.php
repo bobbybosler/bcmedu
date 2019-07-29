@@ -10,11 +10,13 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <?php if ( is_single() ) : ?>
-  <?php bcm_category_header(); ?>
+  <?php /* bcm_category_header(); */ ?>
   <div class="article-wrap">
+<?php /*
     <div class="entry-featured">
       <?php x_featured_image(); ?>
     </div>
+*/ ?>
   <?php else : ?>
   <div class="entry-featured" style="background-image: url('<?php echo get_the_post_thumbnail_url( get_the_ID(), 'entry', NULL ); ?>')">
     <div class="entry-overlay">
