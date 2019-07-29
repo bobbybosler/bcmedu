@@ -1285,6 +1285,7 @@ body.single-post entry-content {
 
 body.single-post .entry-content {
 	font-size: 17px;
+	margin-top: 0;
 }
 
 body.single-post .entry-wrap {
