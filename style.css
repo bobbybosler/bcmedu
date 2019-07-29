@@ -322,11 +322,11 @@ body.archive .wpfc-sermon-container .wpfc_sermon:last-of-type {
 	margin-right: 10px !important;
 }
 
-.select2 {
+#wpfc_sermon_sorting .select2, #categories-3 .select2 {
 		width: 100% !important;
 }
 
-.select2-container--default .select2-selection--single {
+#wpfc_sermon_sorting .select2-container--default .select2-selection--single, #categories-3 .select2-container--default .select2-selection--single {
 	background-color: #990808;
 	border-radius: 0;
 	border: none;
@@ -335,11 +335,11 @@ body.archive .wpfc-sermon-container .wpfc_sermon:last-of-type {
 	-webkit-transition: background-color 300ms ease;
 }
 
-.select2-container--default .select2-selection--single:hover {
+#wpfc_sermon_sorting .select2-container--default .select2-selection--single:hover, #categories-3 .select2-container--default .select2-selection--single:hover {
 	background-color: #870000;
 }
 
-.select2-container--default .select2-selection--single .select2-selection__rendered {
+#wpfc_sermon_sorting .select2-container--default .select2-selection--single .select2-selection__rendered, #categories-3 .select2-container--default .select2-selection--single .select2-selection__rendered {
 	color: #FFF;
 	font-family: Muli;
 	text-transform: uppercase;
@@ -348,19 +348,19 @@ body.archive .wpfc-sermon-container .wpfc_sermon:last-of-type {
 	padding-bottom: 0.5em;
 }
 
-.select2-container--default .select2-selection--single .select2-selection__arrow {
+#wpfc_sermon_sorting .select2-container--default .select2-selection--single .select2-selection__arrow, #categories-3 .select2-container--default .select2-selection--single .select2-selection__arrow {
 	height: 100%;
 }
 
-.select2-selection__arrow b {
+#wpfc_sermon_sorting .select2-selection__arrow b, #categories-3 .select2-selection__arrow b{
   border-color: #FFF transparent transparent transparent !important;
 }
 
-.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+#wpfc_sermon_sorting .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b, #categories-3 .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
 	border-color: transparent transparent #FFF transparent !important;
 }
 
-.select2-dropdown {
+#wpfc_sermon_sorting .select2-dropdown, #categories-3 .select2-dropdown {
 	z-index: 9998;
 }
 
