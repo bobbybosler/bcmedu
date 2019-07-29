@@ -24,9 +24,13 @@
   </div>
   <?php endif; ?>
     <div class="entry-wrap">
-      <?php x_get_view( 'integrity', '_content', 'post-header' ); ?>
-      <?php x_get_view( 'global', '_content' ); ?>
+      <?php if ( is_single() ) : ?>
+          <?php x_get_view( 'global', '_content' ); ?>
+      <?php else : ?>
+          <?php x_get_view( 'integrity', '_content', 'post-header' ); ?>
+          <?php x_get_view( 'global', '_content' ); ?>
     </div>
+  <?php endif; ?>  
   <?php if ( is_single() ) : ?>
   </div>
   <?php endif; ?>
