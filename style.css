@@ -1295,12 +1295,12 @@ body.single-post .entry-wrap {
 }
 
 body.single-post .x-container {
-	width: 100% !important;
+/*	width: 100% !important;*/
 	margin-top: 0;
 }
 
 body.single-post .x-container.max {
-	max-width: none;
+	/*max-width: none;*/
 }
 
 .category-header-content, .article-wrap {
