@@ -47,12 +47,16 @@
     $post_thumbnail_url = get_the_post_thumbnail_url( get_the_ID(), 'full', NULL );
     $text_to_be_wrapped_in_shortcode = '<img src="' . $post_thumbnail_url . '">';
 
-    echo do_shortcode(
-      '[envira-link class="entry-thumb" id="' . get_field('envira_gallery_id') . '"]'
-      . $text_to_be_wrapped_in_shortcode
-      . '[/envira-link]'
-    );
+    if ( (get_field('envira_gallery_id')) != NULL ) {
 
+      echo do_shortcode(
+        '[envira-link class="entry-thumb" id="' . get_field('envira_gallery_id') . '"]'
+        . $text_to_be_wrapped_in_shortcode
+        . '[/envira-link]'
+      );
+    } else {
+      $text_to_be_wrapped_in_shortcode
+    }
 
     ?>
   </div>
