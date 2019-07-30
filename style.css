@@ -1489,7 +1489,7 @@ body.single-format-standard .entry-wrap img.alignright {
 }
 }
 */
-/* Single Post Gallery Format */
+/* Single Post Gallery Format
 
 body.single-format-gallery .article-wrap:before {
 	content: "\f302";
@@ -1532,7 +1532,7 @@ body.single-format-gallery .entry-content p:first-child {
 	padding: 45px 0 10px 0;
 	margin-bottom: 0;
 }
-}
+}*/
 
 /* Woocommerce Styling */
 .cue-playlist-container div.mejs-time {
