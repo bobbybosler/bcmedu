@@ -15,8 +15,7 @@
   <div class="entry-featured">
     <?php
       if ( function_exists( 'envira_gallery' ) ) {
-        envira_gallery( get_field('post_object') );
-        echo get_field('envira_gallery_id');
+        envira_gallery( get_field('envira_gallery_id') );
       }
       /*x_featured_gallery();*/ ?>
   </div>
