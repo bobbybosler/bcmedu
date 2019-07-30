@@ -16,9 +16,7 @@
     <?php
       if ( function_exists( 'envira_gallery' ) ) {
         envira_gallery( get_field('post_object') );
-        echo "Envira Gallery function exists. Yay!";
-      } else {
-        echo "Envira Gallery function does not exist.";
+        echo get_field('post_object');
       }
       /*x_featured_gallery();*/ ?>
   </div>
