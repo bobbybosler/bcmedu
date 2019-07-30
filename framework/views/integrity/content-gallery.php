@@ -55,7 +55,7 @@
         . '[/envira-link]'
       );
     } else {
-      $text_to_be_wrapped_in_shortcode
+      echo $text_to_be_wrapped_in_shortcode;
     }
 
     ?>
