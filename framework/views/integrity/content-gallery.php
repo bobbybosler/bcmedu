@@ -14,7 +14,7 @@
 <div class="article-wrap">
   <div class="entry-featured">
     <?php
-      if ( function_exists( 'envira_gallery' ) ) { envira_gallery( get_field('post_object') ); }
+      /*if ( function_exists( 'envira_gallery' ) ) { */envira_gallery( get_field('post_object')/* )*/;/* }*/
       /*x_featured_gallery();*/ ?>
   </div>
 
