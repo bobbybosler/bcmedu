@@ -13,7 +13,9 @@
   <?php bcm_category_header(); ?>
 <div class="article-wrap">
   <div class="entry-featured">
-    <?php /*x_featured_gallery();*/ ?>
+    <?php
+      if ( function_exists( 'envira_gallery' ) ) { envira_gallery(); }
+      /*x_featured_gallery();*/ ?>
   </div>
 
   <?php else : ?>
