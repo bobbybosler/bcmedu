@@ -42,7 +42,11 @@
   <?php else : ?>
 
   <div class="entry-featured image">
-    <?php x_featured_gallery(); ?>
+    <?php
+    if ( function_exists( 'envira_gallery' ) ) {
+      envira_gallery( get_field('envira_gallery_id') );
+    }
+    /*x_featured_gallery();*/ ?>
   </div>
 
 
