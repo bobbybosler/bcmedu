@@ -42,7 +42,19 @@
   <?php else : ?>
 
   <div class="entry-featured image">
-    <?php x_featured_image(); ?>
+    <?php
+    /* x_featured_image(); */
+    $post_thumbnail_url = get_the_post_thumbnail_url( get_the_ID(), 'full', NULL );
+    $text_to_be_wrapped_in_shortcode = '<img src="' . $post_thumbnail_url . '">';
+
+    echo do_shortcode(
+      '[envira-link class="entry-thumb" id="' . get_field('envira_gallery_id') . '"]'
+      . $text_to_be_wrapped_in_shortcode
+      . '[/envira-link]'
+    );
+
+
+    ?>
   </div>
 
 
