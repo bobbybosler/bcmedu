@@ -14,11 +14,11 @@
 <div class="article-wrap">
   <div class="entry-featured">
     <?php
-      /*the_gallery()*/
+      the_gallery()
       /*if ( function_exists( 'envira_gallery' ) ) {
         envira_gallery( get_field('envira_gallery_id') );
       }*/
-      x_featured_gallery(); ?>
+      /*x_featured_gallery();*/ ?>
   </div>
 
   <?php else : ?>
