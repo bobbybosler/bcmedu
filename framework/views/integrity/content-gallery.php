@@ -53,7 +53,7 @@
     <?php
     /* x_featured_image(); */
     $post_thumbnail_url = get_the_post_thumbnail_url( get_the_ID(), 'full', NULL );
-    $text_to_be_wrapped_in_shortcode = /*'<img src="' . $post_thumbnail_url . '">' '<div class="entry-overlay" style="width: 100%;height: 100%;display: block;">&nbsp;</div>'*/'&nbsp;'';
+    $text_to_be_wrapped_in_shortcode = /*'<img src="' . $post_thumbnail_url . '">' '<div class="entry-overlay" style="width: 100%;height: 100%;display: block;">&nbsp;</div>'*/'&nbsp;';
 
     if ( (get_field('envira_gallery_id')) != NULL ) {
 
