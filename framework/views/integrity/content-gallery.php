@@ -52,9 +52,9 @@
   <div class="entry-featured image" <?php /*style="background-image: url('<?php echo get_the_post_thumbnail_url( get_the_ID(), 'entry', NULL ); ?>')"*/>
     <?php
     $post_thumbnail_url = get_the_post_thumbnail_url( get_the_ID(), 'full', NULL );
-    $text_to_be_wrapped_in_shortcode = '<div class="entry-image" style="background-image:url(/''
+    $text_to_be_wrapped_in_shortcode = '<div class="entry-image" style="background-image:url(\''
     . echo get_the_post_thumbnail_url( get_the_ID(), 'entry', NULL )
-    . '/')">&nbsp;</div>';
+    . '\')">&nbsp;</div>';
 
     if ( (get_field('envira_gallery_id')) != NULL ) {
 
