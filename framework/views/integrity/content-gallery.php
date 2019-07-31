@@ -14,7 +14,7 @@
   <div class="category-header wrap">
     <div class="category-header-content">
       <?php x_get_view( 'integrity', '_content', 'post-header' ); ?>
-      <?php the_date('', '<div class="title-subhead">', '</span>'); ?>
+      <?php the_date('', '<div class="title-subhead">Published ', '</div>'); ?>
     </div>
   </div>
 <div class="article-wrap">
