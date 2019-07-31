@@ -14,11 +14,12 @@
   <div class="category-header wrap">
     <div class="category-header-content">
       <?php x_get_view( 'integrity', '_content', 'post-header' ); ?>
-      <?php x_get_view( 'global', '_content' ); ?>
-      <div class="category-header-footer"><i class="fas fa-chevron-down"></i></div>
+
     </div>
   </div>
 <div class="article-wrap">
+  <?php x_get_view( 'global', '_content' ); ?>
+  <div class="category-header-footer"><i class="fas fa-chevron-down"></i></div>
   <div class="entry-featured">
     <?php
       if ( function_exists( 'envira_gallery' ) ) {
