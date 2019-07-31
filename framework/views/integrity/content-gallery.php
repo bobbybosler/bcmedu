@@ -10,7 +10,13 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <?php if ( is_single() ) : ?>
-  <?php bcm_category_header(); ?>
+  <?php /*bcm_category_header();*/ ?>
+  <div class="category-header wrap">
+    <div class="category-header-content">
+      <?php x_get_view( 'integrity', '_content', 'post-header' ); ?>
+      <?php x_get_view( 'global', '_content' ); ?>
+    </div>
+  </div>
 <div class="article-wrap">
   <div class="entry-featured">
     <?php
@@ -33,10 +39,10 @@
 
   <?php if ( is_single() ) : ?>
 
-  <div class="entry-wrap">
+  <?php /*<div class="entry-wrap">
     <?php x_get_view( 'integrity', '_content', 'post-header' ); ?>
     <?php x_get_view( 'global', '_content' ); ?>
-  </div>
+  </div> */?>
   <?php x_get_view( 'integrity', '_content', 'post-footer' ); ?>
 </div>
   <?php else : ?>
