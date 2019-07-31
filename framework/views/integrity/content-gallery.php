@@ -49,7 +49,7 @@
 </div>
   <?php else : ?>
 
-  <div class="entry-featured" style="background-image: url('<?php echo get_the_post_thumbnail_url( get_the_ID(), 'entry', NULL ); ?>')">
+  <div class="entry-featured image" style="background-image: url('<?php echo get_the_post_thumbnail_url( get_the_ID(), 'entry', NULL ); ?>')">
     <?php
     /* x_featured_image(); */
     $post_thumbnail_url = get_the_post_thumbnail_url( get_the_ID(), 'full', NULL );
