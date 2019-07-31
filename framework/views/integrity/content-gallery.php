@@ -49,11 +49,11 @@
 </div>
   <?php else : ?>
 
-  <div class="entry-featured image">
+  <div class="entry-featured" style="background-image: url('<?php echo get_the_post_thumbnail_url( get_the_ID(), 'entry', NULL ); ?>')">
     <?php
     /* x_featured_image(); */
     $post_thumbnail_url = get_the_post_thumbnail_url( get_the_ID(), 'full', NULL );
-    $text_to_be_wrapped_in_shortcode = '<img src="' . $post_thumbnail_url . '">';
+    $text_to_be_wrapped_in_shortcode = /*'<img src="' . $post_thumbnail_url . '">'*/ '<div class="entry-overlay"></div>';
 
     if ( (get_field('envira_gallery_id')) != NULL ) {
 
