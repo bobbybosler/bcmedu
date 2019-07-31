@@ -15,7 +15,7 @@
     <div class="category-header-content">
       <?php x_get_view( 'integrity', '_content', 'post-header' ); ?>
       <?php x_get_view( 'global', '_content' ); ?>
-      <p><i class="fas fa-chevron-down"></i></p>
+      <div class="category-header-footer"><i class="fas fa-chevron-down"></i></div>
     </div>
   </div>
 <div class="article-wrap">
