@@ -230,6 +230,9 @@ function x_shortcode_recent_posts_v2( $atts ) {
         $image_output_class = 'with-image';
       }
 
+// Start variable for excerpt early.
+      $excerpt = ( $show_excerpt ) ? '<div class="x-recent-posts-excerpt"><p>' . preg_replace('/<a.*?more-link.*?<\/a>/', '', get_the_excerpt() ) . '</p></div>' : '';
+
 // If post format is "Link", then return external link, otherwise get the post url.
 
       if ( has_post_format( 'link' )) {
@@ -245,7 +248,7 @@ function x_shortcode_recent_posts_v2( $atts ) {
 	  $cat = get_the_category();
 	  $category = $cat[0]->name;
 
-      $excerpt .= ( $show_excerpt ) ? '<div class="x-recent-posts-excerpt"><p>' . preg_replace('/<a.*?more-link.*?<\/a>/', '', get_the_excerpt() ) . '</p></div>' : '';
+
 
 // Added $link in place of get_permalink( get_the_ID() )
 
