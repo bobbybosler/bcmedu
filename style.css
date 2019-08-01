@@ -918,6 +918,7 @@ article.sticky {
 	}
 body.blog	.entry-title, body.archive	.entry-title {
 		font-size: 2.5em;
+		line-height: 0.85;
 	}
 }
 /* Page Header Stardardized Styling*/
