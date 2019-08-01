@@ -237,7 +237,7 @@ function x_shortcode_recent_posts_v2( $atts ) {
       } elseif ( has_post_format( 'image' )) {
         $link = get_the_post_thumbnail_url( get_the_ID(), 'full', NULL );
         $image_output_class .= ' image-lightbox-' . get_the_ID();
-        $excerpt .= do_shortcode('[lightbox selector=".image-lightbox-' . get_the_ID() . '"]');
+        $excerpt .= 'This is an image post!'/*do_shortcode('[lightbox selector=".image-lightbox-' . get_the_ID() . '"]')*/;
       } else {
         $link = get_permalink( get_the_ID() );
       }
