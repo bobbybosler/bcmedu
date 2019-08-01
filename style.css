@@ -733,7 +733,7 @@ body.blog .entry-title a:hover, body.archive .entry-title a:hover {
 	.entry-wrap .category-meta a {
 		font-size: 3vw;
 	}
-	.entry-wrap .category-meta a:first-child {
+	.entry-wrap .category-meta span a:first-child {
 		margin-left: 0;
 	}
 }
