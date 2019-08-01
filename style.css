@@ -720,13 +720,19 @@ body.blog .entry-title a:hover, body.archive .entry-title a:hover {
 .entry-wrap .category-meta a {
 	display: inline-block;
 	background-color: #990808;
-	padding: 6px 14px 6px;
+	padding: 0.43em 1em 0.43em;
 	margin-left: 10px;
 	color: white;
 	font-family: Muli;
 	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+	.entry-wrap .category-meta a {
+		font-size: 3vw;
+	}
 }
 
 .entry-wrap .category-meta a i { display: none;
