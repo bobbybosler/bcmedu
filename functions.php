@@ -28,6 +28,32 @@ function child_style_in_footer() {
 // Additional Functions
 // =============================================================================
 
+//
+// Add "has_items" class to body when items in cart.
+// =============================================================================
+
+add_filter( 'body_class', 'add_body_class_for_cart_items' );
+function add_body_class_for_cart_items( $classes ) {
+    if( ! WC()->cart->is_empty() )
+        $classes[] = 'has_items';
+
+    return $classes;
+}
+
+add_action( 'wp_footer', 'add_body_class_for_ajax_add_to_cart' );
+function add_body_class_for_ajax_add_to_cart() {
+    ?>
+        <script type="text/javascript">
+            (function($){
+                $('body').on( 'added_to_cart', function(){
+                    if( ! $(this).hasClass('has_items') )
+                        $(this).addClass('has_items');
+                        console.log('added_to_cart');
+                });
+            })(jQuery);
+        </script>
+    <?php
+}
 
 //
 // Add "Artist" custom attribute after shop title
