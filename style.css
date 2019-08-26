@@ -1731,7 +1731,7 @@ body.single-format-gallery .entry-content p:first-child {
 
 /* Reset Password Form */
 #resetpassform label, #resetpassform .description {
-	color #fff !important !important;
+	color: #fff !important;
 	font-family: Muli !important;
 }
 
