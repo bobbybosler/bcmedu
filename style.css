@@ -1735,7 +1735,7 @@ body.single-format-gallery .entry-content p:first-child {
 	font-family: Muli !important;
 }
 
-#resetpassform input {
+#resetpassform .submit input {
 	float:none;
 	border-radius: 0 !important;
 	background-color: transparent !important;
