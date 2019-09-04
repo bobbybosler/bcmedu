@@ -28,6 +28,24 @@ function child_style_in_footer() {
 // Additional Functions
 // =============================================================================
 
+
+/**
+ * Force-disable Jetpack's SSO feature.
+ *
+ * @param array $modules Array of active Jetpack modules.
+ *
+ * @return array $modules Array of active Jetpack modules.
+ */
+function jetpackcom_support_disable_jetpack_sso( $modules ) {
+	$found = array_search( 'sso', $modules, true );
+	if ( false !== $found ) {
+		unset( $modules[ $found ] );
+	}
+	return $modules;
+}
+add_filter( 'option_jetpack_active_modules', 'jetpackcom_support_disable_jetpack_sso' );
+
+
 //
 // Add "has_items" class to body when items in cart.
 // =============================================================================
