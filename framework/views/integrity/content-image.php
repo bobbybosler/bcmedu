@@ -4,6 +4,7 @@
 // VIEWS/INTEGRITY/CONTENT-IMAGE.PHP
 // -----------------------------------------------------------------------------
 // Image post output for Integrity.
+// Used as single image posts on bcmedu.org.
 // =============================================================================
 
 ?>
@@ -18,7 +19,7 @@
 	    <div class="entry-image" style="background-image: url('<?php echo get_the_post_thumbnail_url( get_the_ID(), 'entry', NULL ); ?>')">
 	    <div class="image-overlay">
 	    </div>
-	    </div>  
+	    </div>
 	</a>
 	<?php echo do_shortcode('[lightbox selector=".image-lightbox-' . get_the_ID() . '"]'); ?>
   <?php endif; ?>

@@ -4,6 +4,7 @@
 // VIEWS/INTEGRITY/CONTENT.PHP
 // -----------------------------------------------------------------------------
 // Standard post output for Integrity.
+// Used as Custom pages on bcmedu.org.
 // =============================================================================
 
 ?>

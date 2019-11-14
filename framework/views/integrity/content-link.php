@@ -4,6 +4,7 @@
 // VIEWS/INTEGRITY/CONTENT-LINK.PHP
 // -----------------------------------------------------------------------------
 // Link post output for Integrity.
+// Used as External Link posts on bcmedu.org.
 // =============================================================================
 
 $link = get_post_meta( get_the_ID(), '_x_link_url',  true );

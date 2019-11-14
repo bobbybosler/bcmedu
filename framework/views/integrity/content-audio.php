@@ -4,6 +4,7 @@
 // VIEWS/INTEGRITY/CONTENT-AUDIO.PHP
 // -----------------------------------------------------------------------------
 // Audio post output for Integrity.
+// Used as Event pages on bcmedu.org.
 // =============================================================================
 
 ?>

@@ -4,6 +4,7 @@
 // VIEWS/INTEGRITY/CONTENT-GALLERY.PHP
 // -----------------------------------------------------------------------------
 // Gallery post output for Integrity.
+// Used as Photo Gallery posts on bcmedu.org.
 // =============================================================================
 
 ?>
