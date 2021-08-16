@@ -1728,23 +1728,3 @@ body.single-format-gallery .entry-content p:first-child {
 	font-size: 1.7em !important;
 	margin-bottom: 5px !important;
 }
-
-/* Reset Password Form */
-#resetpassform label, #resetpassform .description {
-	color: #fff !important;
-	font-family: Muli !important;
-}
-
-#resetpassform .submit input {
-	float:none;
-	border-radius: 0 !important;
-	background-color: transparent !important;
-	color: #FFF !important;
-	font-weight: 500;
-	text-transform: uppercase !important;
-	border-width: 2px;
-	border-color: #fff !important;
-	padding: 0.563em 1.125em !important;
-	height: auto;
-	width: 100%;
-}
